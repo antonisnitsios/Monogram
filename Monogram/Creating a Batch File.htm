@@ -1,0 +1,32 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Creating a Batch (.bat) File to Compile and Run a Java Program</title>
+</head>
+
+<body>
+
+<p><b>Creating a Batch (.bat) File to Run a Java Program&nbsp; (</b><a href="../BatFileExample.zip" style="text-decoration: none">Sample 
+Program and Batch File</a><b>)</b></p>
+<dl>
+  <dt>The following commands placed in a text file saved as &quot;compile_run_Monogram.bat&quot; 
+  will compile and run the program Monogram.java.</dt>
+  <dd><font face="Courier New">set PROGRAM=Monogram<br>
+  echo &quot;compiling program %PROGRAM%.java ...&quot;<br>
+  <br>
+  javac %program%.java<br>
+  <br>
+  java %program%<br>
+  <br>
+  cmd.exe</font></dd>
+</dl>
+<p>The commands in this bat file assume that SDK has been installed and the
+<a target="_blank" title="updating the path variable" style="text-decoration: none" href="http://java.sun.com/j2se/1.4.2/install-windows.html#Path">the path variable is set</a>.</p>
+
+</body>
+
+</html>
